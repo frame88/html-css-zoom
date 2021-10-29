@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background: black;
+    color: white;
+}
+
 main {
     width: 80%;
 }
 
+/*
 .container img {
     width: 150px;
     height: 80px;
@@ -26,3 +32,25 @@ main {
     display: flex;
     justify-content: flex-end;
 }
+*/
+
+/*          INIZIO HEADER       */
+.display-set {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em;
+    background: greenyellow;
+}
+
+.display-set i, .display-set span{
+    background:gray;
+    padding: 0.2em;
+}
+
+.display-set span{
+    margin-right: 1em;
+}
+/*          FINE HEADER       */
+
+
+
