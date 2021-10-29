@@ -54,3 +54,28 @@ main {
 
 
 
+/*          INIZIO MAIN       */
+main {
+    display: flex;
+    justify-content: center;
+    margin: 8em;
+}
+.container {
+    display: flex;
+    background: red;
+    width: 80vw;
+    height: 70vh;
+    flex-wrap: wrap;
+}
+
+img {
+    width: calc((100% / 7) - 1em);
+    height: calc(100% / 6);
+}
+
+
+
+
+
+
+
