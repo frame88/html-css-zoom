@@ -10,6 +10,9 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+html {
+    font: 100%;
+}
 
 
 /*
@@ -76,17 +79,28 @@ img {
     height: calc(100% / 6);
 }
 
-.mare {
+.img-box {
     position: relative;
+    display: inline-block;
+    background: blue;
+    width: calc((100% / 7) - 1em);
+    height: calc(100% / 6);
+    background-image: url(../img/mare.jpg);
+    background-size: cover;
 }
 
 .user-info {
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 0;
     color: white;
+    font-size: 0.2em;
+    padding: 0.5em;
+    background: rgb(128, 128, 128, 0.7);
 }
+/*_____________FINE MAIN________*/
 
+/*_______INIZIO FOOTER__________*/
 
 
 
