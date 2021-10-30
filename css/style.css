@@ -102,8 +102,28 @@ img {
 
 /*_______INIZIO FOOTER__________*/
 
+.container-footer {
+    display: flex;
+    width: 100vw;
+    height:2em;
+    margin: 1em;
+    background: pink;
+    align-items: center;
+}
 
+.left-pulsanti {
+    display: flex;
+    justify-content: flex-start;
+}
 
+.center-list li{
+    list-style-type: none;
+}
+
+.right-pulsanti {
+    display: flex;
+    justify-content: end;
+}
 
 
 
