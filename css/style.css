@@ -113,7 +113,10 @@ img {
 
 .left-pulsanti {
     display: flex;
-    justify-content: flex-start;
+}
+
+.left-pulsanti span {
+    margin-top: 1vh;
 }
 
 .mute {
@@ -121,10 +124,11 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .fas {
-    font-size: 150%;
+    font-size: 120%;
 }
 
 .fa-microphone {
@@ -133,14 +137,12 @@ img {
 
 .mute span {
     align-self: start;
-    display: block;
     font-size: 80%;
 }
 
 
 .fa-angle-up {
     margin-right: 1em;
-    font-size: 80%;
 }
 
 /*
@@ -185,13 +187,15 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 1em;
+    margin-right: 0.5em;
 }
 
 
 .center-list span {
     font-size: 80%;
+    margin-top: 1vh;
 }
+
 
 .share i {
     color: rgb(11, 230, 11);
@@ -204,7 +208,13 @@ img {
 
 .end {
     color: red;
-    background: rgb(185, 185, 185, 0.7);
     padding: 1.3em;
+}
 
+.end:hover {
+    background: rgb(185, 185, 185, 0.7);
+}
+
+.fa-angle-up {
+    font-size: 90%;
 }
