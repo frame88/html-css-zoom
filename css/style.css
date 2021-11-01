@@ -108,6 +108,7 @@ img {
     padding: 2em 0.5em;
     margin-top: 1.3em;
     align-items: center;
+    justify-content: space-between;
 }
 
 .left-pulsanti {
@@ -136,13 +137,9 @@ img {
     font-size: 80%;
 }
 
-.angle {
-    display:flex
-}
 
 .fa-angle-up {
     margin-right: 1em;
-    align-self: center;
     font-size: 80%;
 }
 
@@ -175,16 +172,6 @@ img {
     font-size: 80%;
 }
 
-.angle {
-    display:flex
-}
-
-.center-list{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
 .center-list ul {
     list-style-type: none;
     display: inline-block;
@@ -192,4 +179,32 @@ img {
 
 .center-list ul li {
     display: inline-block;
+}
+
+.more,.invite,.manage,.polling,.share,.angle,.chat,.record,.breakout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1em;
+}
+
+
+.center-list span {
+    font-size: 80%;
+}
+
+.share i {
+    color: rgb(11, 230, 11);
+}
+
+.right-pulsanti {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.end {
+    color: red;
+    background: rgb(185, 185, 185, 0.7);
+    padding: 1.3em;
+
 }
