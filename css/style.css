@@ -135,6 +135,7 @@ img {
     display: block;
     font-size: 80%;
 }
+
 .angle {
     display:flex
 }
@@ -144,7 +145,6 @@ img {
     align-self: center;
     font-size: 80%;
 }
-
 
 /*
 .center-list li{
@@ -158,5 +158,38 @@ img {
 
 */
 
+.stop-video {
+    margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.fa-video {
+    align-self: center;
+}
 
+.stop-video span {
+    align-self: start;
+    display: block;
+    font-size: 80%;
+}
+
+.angle {
+    display:flex
+}
+
+.center-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.center-list ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.center-list ul li {
+    display: inline-block;
+}
